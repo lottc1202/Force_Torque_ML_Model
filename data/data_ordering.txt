@@ -1,0 +1,12 @@
+The data is structured as follows:
+
+The first three columns is volume-averaged mean fluid velocity normalized using mu/(rho*Diameter)
+The fourth column is volume averaged particle volume fraction
+Columns 5 to 7 are particle force normalized using 3*pi*mu*Diameter*(magnitude of fluid velocity)
+Columns 8 to 10 are particle torque normalized using mu*Diameter*Diameter*(magnitude of fluid velocity)
+Column 11 is the weight coefficient for forces used in loss term, viz. 1/mean drag.
+Column 12 is the weight coefficient for torque used in loss term, viz. 1/std(transverse torque components).
+The remaining columns represent relative location (x,y,z) of 26 nearest neighbors sorted from nearest to farthest.
+For example, columns (13,14,15) represent the position of the first nearest neighbor
+
+DO NOT USE "9_bx_sz_LN_26".
