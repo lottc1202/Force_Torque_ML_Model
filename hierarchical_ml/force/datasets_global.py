@@ -6,6 +6,8 @@ import math
 
 from torch.utils.data import Dataset, DataLoader
 
+print("Testing to see if this works")
+
 # Dataset class
 # method 1: __len__ so that len(dataset) returns the size of the dataset. 
 # method 2 __getitem__ to support the indexing such that dataset[i] can be used to get ith sample
